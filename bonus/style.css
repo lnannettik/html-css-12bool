@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    border: solid 1px red;
+    height: 1em;
+    display: flex;
+}
+
+.container-50prc {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.black {
+    background: black;
+}
+
+.skin {
+    background: #e2c598;
+}
+
+.blue {
+    background: #416798;
+}
+
+.red {
+    background: #bc2b34;
+}
+
+.orange {
+    background: #fc7939;
+}
+
+
+
+skin 
+
+
+black 
+
+
+blue 
+
+
+orange 
