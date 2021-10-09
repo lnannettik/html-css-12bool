@@ -5,15 +5,52 @@
 }
 
 .box {
-    border: solid 1px red;
     height: 1em;
     display: flex;
 }
 
+.h-100vh {
+    height: 100vh;
+}
+
 .container-50prc {
     width: 50%;
-    margin: 50px auto;
+    margin: 0 auto;
+    padding-top: 50px;
 }
+
+
+
+.move {
+    display: none;
+}
+
+.container-50prc:hover .move {
+    display: block;
+}
+
+.container-50prc:hover .remove {
+    display: none;
+}
+
+.container-50prc:hover .changeblue {
+    background: #416798;
+}
+
+.container-50prc:hover .changeorange {
+    background: #fc7939;
+}
+
+.container-50prc:active .kame {
+    width: 700px;
+    transition: width .5s;
+    background-image: linear-gradient(to right, #a9d6e5 , #013a63);
+}
+
+.bg {
+    background-image: linear-gradient(brown , green);
+}
+
 
 .black {
     background: black;
@@ -35,15 +72,10 @@
     background: #fc7939;
 }
 
+.light {
+    background: #a9d6e5;
+}
 
-
-skin 
-
-
-black 
-
-
-blue 
-
-
-orange 
+.grey {
+    background: rgba(177, 177, 177);
+}
